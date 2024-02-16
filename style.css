@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-containar {
+  background-color: #424250;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CHILD {
+  background-color: #33333d;
+  border-radius: 5px;
+}
+.containar {
+  width: 70vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #5c5cac;
+}
+.number {
+  font-size: 14vw;
+  color: #4d1b83;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.button-containar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: auto;
+}
+.button-1 {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  border-left: 1.5px solid #424250;
+  border-radius: 0 0 0 5px;
+}
+.button-1 i {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #424250;
+}
+.button-1:hover {
+  cursor: pointer;
+}
+.button-2 {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  border-right: 1.5px solid #424250;
+}
+.button-2 i {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #424250;
+}
+
+.button-2:hover {
+  cursor: pointer;
+}
+.reset-btn {
+  background-color: #33333d;
+  color: #424250;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 400;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.reset-btn:hover {
+  color: #87df67;
+}
